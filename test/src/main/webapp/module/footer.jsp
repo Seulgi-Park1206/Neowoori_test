@@ -8,13 +8,18 @@
 </head>
 <style>
 a {
-	text-decoration:none; color:#000000;
+	text-decoration:none;
+	color:#000000;
 }
 a:hover {
 	color:#ff0000;
 }
-footer ul{
-	padding-top:10px;
+footer {
+	width: 100%;
+	height: 70px;
+	margin-bottom: -10px;
+}
+footer ul {
 	text-align: center;
 }
 footer ul li {
@@ -27,8 +32,8 @@ footer ul li:first-child {
 }
 </style>
 <body>
-<hr>
 <footer>
+	<hr>
 	<ul>
 		<li><a href="">회사소개</a></li>
 		<li><a href="">Q&A</a></li>

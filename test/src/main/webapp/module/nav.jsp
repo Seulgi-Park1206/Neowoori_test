@@ -9,7 +9,7 @@
 <style>
 nav {
 	margin: 0;
-	height: 150px;
+	height: 130px;
 }
 nav div {
 	margin: 0;
@@ -37,28 +37,19 @@ nav div {
 }
 </style>
 <body>
-<nav>
-	<div class="class-nav-left"><a href="index"><img src="resources/img/logo.png" width="100%"></a></div>
-	<div class="class-nav-center"><a></a></div>
-	<div class="class-nav-right">
-		<a class="link" href="">찾기</a>
-		<a class="link" href="">만들기</a>
-		<a class="link" href="">쪽지함</a>
-		<a class="link" href="">내스터디</a>
-		<a class="link" href="">로그인</a>
-	</div>
-	<!-- logo -->
-	<!-- <div class="class-nav-left">
-		<a href="index"><img src="resources/img/logo.png" width="100%"></a>
-	</div>
-	<div class="class-nav-center"></div>
-	link
-	<div class="class-nav-right">
-		<a class="link" href="">찾기</a>
-		<a class="link" href="">만들기</a>
-		<a class="link" href="">로그인</a>
-	</div> -->
-</nav><br>
-<hr>
+<div class=nav>
+	<nav>
+		<div class="class-nav-left"><a href="index"><img src="/controller/resources/img/logo.png" width="100%"></a></div>
+		<div class="class-nav-center"><a></a></div>
+		<div class="class-nav-right">
+			<a class="link" href="">찾기</a>
+			<a class="link" href="">만들기</a>
+			<a class="link" href="">쪽지함</a>
+			<a class="link" href="">내스터디</a>
+			<a class="link" href="">로그인</a>
+		</div>
+	</nav><br>
+	<hr>
+</div>
 </body>
 </html>
