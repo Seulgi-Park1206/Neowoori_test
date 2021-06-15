@@ -1,0 +1,51 @@
+@charset "EUC-KR";
+.form{
+	width: 70%;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table {
+	width: 80%;
+	height: 85%;
+	border: 1px solid gray;
+	margin-left: 10%;
+}
+tr {
+	text-align: center;
+	border: 1px solid red;
+}
+.tdLeft {
+	width: 25%;
+}
+.intext {
+	width: 70%;
+}
+.tdCheck {
+	width: 15%;
+}
+.email {
+	width: 32%;
+}
+.btnDiv {
+	width: 100%;
+	height: 10%;
+	margin-top: 15px;
+	margin-left: -10%;
+	text-align: right;
+}
+input {
+	padding: 5px;
+}
+@media (max-width:1330px){ /*가로 너비가 1330px 이하일 때 아래 스타일 적용*/
+    .form {
+    	font-size: 10px;
+        width: 95%;
+    }
+    .btnDiv {
+    	margin-top: 25px;
+    }
+    .btn,.email {
+    	font-size: 10px;
+    }
+}

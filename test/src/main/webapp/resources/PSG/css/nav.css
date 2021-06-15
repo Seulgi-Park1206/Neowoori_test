@@ -1,0 +1,64 @@
+@charset "EUC-KR";
+body {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+nav {
+	margin: 0;
+	height: 130px;
+}
+nav div {
+	margin: 0;
+	height: 100%;
+	list-style: none;
+	text-align: right;
+}
+.class-nav-left {
+	width: 60%;
+	height: 70%;
+	max-width: 460px;
+	margin-top: 30px;
+	margin-left: 30%;
+	padding: 5px;
+}
+.class-nav-right {
+	width: 25%;
+	height: 15%;
+	min-width: 400px;
+	padding: 5px;
+	float: right;
+}
+#logo {
+	width: 80%;
+	max-width: 400px;
+}
+#searchLink {
+	margin-left: 0;
+}
+.link {
+	margin: 0 15px;
+	color: #000000;
+}
+@media (max-width:1330px){ /*가로 너비가 1330px 이하일 때 아래 스타일 적용*/
+    nav {
+    	height: 110px;
+    }
+    .link {
+        font-size: 15px;    
+    }
+    .class-nav-left {
+    	margin: 15px 0;
+    	margin-left: auto;
+    	margin-right: auto;
+    	height: 50px;
+    }
+    .class-nav-right {
+    	margin-top: 15px;
+        width: 90%;
+        text-align: center;
+    }
+    #logo {
+    	width: 100%;
+    }
+}

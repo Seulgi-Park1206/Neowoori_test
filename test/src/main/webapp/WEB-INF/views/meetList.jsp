@@ -4,72 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>My Study</title>
 </head>
-<style>
-.form {
-	padding: 5px;
-	margin-top: 5px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 95%;
-}
-.subForm {
-	height: 50%;
-}
-#noStudyDiv1, #noStudyDiv2 {
-	text-align: center;
-	width: 60%;
-	padding: 3px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#myStudyDiv1, #myStudyDiv2 {
-	text-align: center;
-	width: 60%;
-	padding: 10px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#searchPic {
-	height: 200px;
-}
-#goSearch {
-	font-size: 28px;
-	color: blue;
-}
-.title {
-	font-size: 30px;
-	font-weight: bold;
-}
-.title:hover {
-	color: #000000;
-}
-table {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-}
-tr {
-	text-align: center;
-}
-.studyBlock {
-	border: 5px solid gray;
-	width: 38%;
-	height: 150px;
-	border-radius: 30px;
-}
-.blank {
-	width: 24%;
-}
-.blank2 {
-	height: 60px;
-}
-.tblBlock {
-	width: 100%;
-	height: 100%;
-}
-</style>
+<link rel="stylesheet" href="/controller/resources/PSG/css/meetList.css" type="text/css">
 <body>
 	<jsp:include page="/module/nav.jsp" flush="false" />
 	<div class=form>
@@ -77,8 +15,8 @@ tr {
 		<div class=subForm>
 			<a class=title>내가 만든 스터디</a><br>
 			<div id=noStudyDiv1>
-				<a class=title>가입된 스터디가 없습니다.</a><br><br>
-				<img src="/controller/resources/img/searchBig.png" id=searchPic><br>
+				<a class=comment>가입된 스터디가 없습니다.</a><br>
+				<img src="/controller/resources/img/searchBig.png" class=searchPic><br>
 				<a href="" id=goSearch>스터디 찾으러 가기</a>
 			</div>
 			<div id=myStudyDiv1>
@@ -141,8 +79,8 @@ tr {
 		<div class=subForm>
 			<a class=title>내가 가입한 스터디</a><br>
 			<div id=noStudyDiv2>
-				<a class=title>가입된 스터디가 없습니다.</a><br><br>
-				<img src="/controller/resources/img/searchBig.png" id=searchPic><br>
+				<a class=comment>가입된 스터디가 없습니다.</a><br>
+				<img src="/controller/resources/img/searchBig.png" class=searchPic><br>
 				<a href="" id=goSearch>스터디 찾으러 가기</a>
 			</div>
 			<div id=myStudyDiv2>
