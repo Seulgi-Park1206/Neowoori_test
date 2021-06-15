@@ -1,6 +1,10 @@
 # Neowoori
 human education center team project
 
+## 0615 commit
+* css 분리
+* (반응형 웹 형태로 수정) width가 1330px 이하인 경우 글자 크기 및 요소 사이즈 변경
+
 ## 0611 commit
 test\src\main\webapp\module -> nav.jsp, footer.jsp
 test\src\main\webapp\resources\img -> logo.png
