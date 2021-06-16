@@ -4,6 +4,8 @@ human education center team project
 ## 0616 commit
 * main css 분리
 * nav.jsp 구조 수정 및 css 변경
+* meetadmin 페이지 추가
+* table, title, contents 등 form.css로 분리 후 통일
 
 ## 0615 commit
 * css 분리
