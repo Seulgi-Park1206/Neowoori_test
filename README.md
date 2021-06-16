@@ -1,7 +1,7 @@
 # Neowoori
 human education center team project
 
-## 0615 commit
+## 0616 commit
 * main css 분리
 * nav.jsp 구조 수정 및 css 변경
 
