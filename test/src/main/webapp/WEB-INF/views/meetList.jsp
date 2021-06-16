@@ -7,141 +7,146 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>My Study</title>
 </head>
-<link rel="stylesheet" href="/controller/resources/PSG/css/meetList.css" type="text/css">
+<link rel="stylesheet" href="/controller/resources/psg/css/form.css" type="text/css">
+<link rel="stylesheet" href="/controller/resources/psg/css/meetList.css" type="text/css">
 <body>
 	<jsp:include page="/module/nav.jsp" flush="false" />
 	<div class=form>
 		<!-- 내가 만든 스터디 -->
 		<div class=subForm>
 			<a class=title>내가 만든 스터디</a><br>
-			<div id=noStudyDiv1>
-				<a class=comment>가입된 스터디가 없습니다.</a><br>
-				<img src="/controller/resources/img/searchBig.png" class=searchPic><br>
-				<a href="" id=goSearch>스터디 찾으러 가기</a>
-			</div>
-			<div id=myStudyDiv1>
-				<table>
-					<tr><td class=studyBlock>
-							<table class=tblBlock>
-								<tr><td>행렬의 아름다움</td></tr>
-								<tr><td>카테고리 대</td></tr>
-								<tr><td>카테고리 소</td></tr>
-								<tr><td>천안시</td></tr>
-							</table>
-						</td><td class=blank></td>
-						<td class=studyBlock>
-							<table class=tblBlock>
-								<tr><td>행렬의 아름다움</td></tr>
-								<tr><td>카테고리 대</td></tr>
-								<tr><td>카테고리 소</td></tr>
-								<tr><td>천안시</td></tr>
-							</table>
-						</td></tr>
-					<tr><td colspan=3 class=blank2></td></tr>
-					<tr><td class=studyBlock>
-							<table class=tblBlock>
-								<tr><td>행렬의 아름다움</td></tr>
-								<tr><td>카테고리 대</td></tr>
-								<tr><td>카테고리 소</td></tr>
-								<tr><td>천안시</td></tr>
-							</table>
-						</td><td class=blank></td>
-						<td class=studyBlock>
-							<table class=tblBlock>
-								<tr><td>행렬의 아름다움</td></tr>
-								<tr><td>카테고리 대</td></tr>
-								<tr><td>카테고리 소</td></tr>
-								<tr><td>천안시</td></tr>
-							</table>
-						</td></tr>
-					<tr><td colspan=3 class=blank2></td></tr>
-					<tr><td class=studyBlock>
-							<table class=tblBlock>
-								<tr><td>행렬의 아름다움</td></tr>
-								<tr><td>카테고리 대</td></tr>
-								<tr><td>카테고리 소</td></tr>
-								<tr><td>천안시</td></tr>
-							</table>
-						</td><td class=blank></td>
-						<td class=studyBlock>
-							<table class=tblBlock>
-								<tr><td>행렬의 아름다움</td></tr>
-								<tr><td>카테고리 대</td></tr>
-								<tr><td>카테고리 소</td></tr>
-								<tr><td>천안시</td></tr>
-							</table>
-						</td></tr>
-				</table>
+			<div class=contents>
+				<div id=noStudyDiv1>
+					<a class=comment>가입된 스터디가 없습니다.</a><br>
+					<img src="/controller/resources/img/searchBig.png" class=searchPic><br>
+					<a href="" id=goSearch>스터디 찾으러 가기</a>
+				</div>
+				<div id=myStudyDiv1>
+					<table>
+						<tr><td class=studyBlock>
+								<table class=tblBlock>
+									<tr><td>행렬의 아름다움</td></tr>
+									<tr><td>카테고리 대</td></tr>
+									<tr><td>카테고리 소</td></tr>
+									<tr><td>천안시</td></tr>
+								</table>
+							</td><td class=blank></td>
+							<td class=studyBlock>
+								<table class=tblBlock>
+									<tr><td>행렬의 아름다움</td></tr>
+									<tr><td>카테고리 대</td></tr>
+									<tr><td>카테고리 소</td></tr>
+									<tr><td>천안시</td></tr>
+								</table>
+							</td></tr>
+						<tr><td colspan=3 class=blank2></td></tr>
+						<tr><td class=studyBlock>
+								<table class=tblBlock>
+									<tr><td>행렬의 아름다움</td></tr>
+									<tr><td>카테고리 대</td></tr>
+									<tr><td>카테고리 소</td></tr>
+									<tr><td>천안시</td></tr>
+								</table>
+							</td><td class=blank></td>
+							<td class=studyBlock>
+								<table class=tblBlock>
+									<tr><td>행렬의 아름다움</td></tr>
+									<tr><td>카테고리 대</td></tr>
+									<tr><td>카테고리 소</td></tr>
+									<tr><td>천안시</td></tr>
+								</table>
+							</td></tr>
+						<tr><td colspan=3 class=blank2></td></tr>
+						<tr><td class=studyBlock>
+								<table class=tblBlock>
+									<tr><td>행렬의 아름다움</td></tr>
+									<tr><td>카테고리 대</td></tr>
+									<tr><td>카테고리 소</td></tr>
+									<tr><td>천안시</td></tr>
+								</table>
+							</td><td class=blank></td>
+							<td class=studyBlock>
+								<table class=tblBlock>
+									<tr><td>행렬의 아름다움</td></tr>
+									<tr><td>카테고리 대</td></tr>
+									<tr><td>카테고리 소</td></tr>
+									<tr><td>천안시</td></tr>
+								</table>
+							</td></tr>
+					</table>
+				</div>
 			</div>
 		</div>
 		<hr>
 		<!-- 내가 가입한 스터디 -->
 		<div class=subForm>
 			<a class=title>내가 가입한 스터디</a><br>
-			<div id=noStudyDiv2>
-				<a class=comment>가입된 스터디가 없습니다.</a><br>
-				<img src="/controller/resources/img/searchBig.png" class=searchPic><br>
-				<a href="" id=goSearch>스터디 찾으러 가기</a>
-			</div>
-			<div id=myStudyDiv2>
-				<table>
-					<tr><td class=studyBlock>
-							<table class=tblBlock>
-								<tr><td>행렬의 아름다움</td></tr>
-								<tr><td>(가입 중)</td></tr>
-								<tr><td>카테고리 대</td></tr>
-								<tr><td>카테고리 소</td></tr>
-								<tr><td>천안시</td></tr>
-							</table>
-						</td><td class=blank></td>
-						<td class=studyBlock>
-							<table class=tblBlock>
-								<tr><td>행렬의 아름다움</td></tr>
-								<tr><td>(가입 중)</td></tr>
-								<tr><td>카테고리 대</td></tr>
-								<tr><td>카테고리 소</td></tr>
-								<tr><td>천안시</td></tr>
-							</table>
-						</td></tr>
-					<tr><td colspan=3 class=blank2></td></tr>
-					<tr><td class=studyBlock>
-							<table class=tblBlock>
-								<tr><td>행렬의 아름다움</td></tr>
-								<tr><td>(가입 중)</td></tr>
-								<tr><td>카테고리 대</td></tr>
-								<tr><td>카테고리 소</td></tr>
-								<tr><td>천안시</td></tr>
-							</table>
-						</td><td class=blank></td>
-						<td class=studyBlock>
-							<table class=tblBlock>
-								<tr><td>행렬의 아름다움</td></tr>
-								<tr><td>(가입 중)</td></tr>
-								<tr><td>카테고리 대</td></tr>
-								<tr><td>카테고리 소</td></tr>
-								<tr><td>천안시</td></tr>
-							</table>
-						</td></tr>
-					<tr><td colspan=3 class=blank2></td></tr>
-					<tr><td class=studyBlock>
-							<table class=tblBlock>
-								<tr><td>행렬의 아름다움</td></tr>
-								<tr><td>(가입 중)</td></tr>
-								<tr><td>카테고리 대</td></tr>
-								<tr><td>카테고리 소</td></tr>
-								<tr><td>천안시</td></tr>
-							</table>
-						</td><td class=blank></td>
-						<td class=studyBlock>
-							<table class=tblBlock>
-								<tr><td>행렬의 아름다움</td></tr>
-								<tr><td>(가입 중)</td></tr>
-								<tr><td>카테고리 대</td></tr>
-								<tr><td>카테고리 소</td></tr>
-								<tr><td>천안시</td></tr>
-							</table>
-						</td></tr>
-				</table>
+			<div class=contents>
+				<div id=noStudyDiv2>
+					<a class=comment>가입된 스터디가 없습니다.</a><br>
+					<img src="/controller/resources/img/searchBig.png" class=searchPic><br>
+					<a href="" id=goSearch>스터디 찾으러 가기</a>
+				</div>
+				<div id=myStudyDiv2>
+					<table>
+						<tr><td class=studyBlock>
+								<table class=tblBlock>
+									<tr><td>행렬의 아름다움</td></tr>
+									<tr><td>(가입 중)</td></tr>
+									<tr><td>카테고리 대</td></tr>
+									<tr><td>카테고리 소</td></tr>
+									<tr><td>천안시</td></tr>
+								</table>
+							</td><td class=blank></td>
+							<td class=studyBlock>
+								<table class=tblBlock>
+									<tr><td>행렬의 아름다움</td></tr>
+									<tr><td>(가입 중)</td></tr>
+									<tr><td>카테고리 대</td></tr>
+									<tr><td>카테고리 소</td></tr>
+									<tr><td>천안시</td></tr>
+								</table>
+							</td></tr>
+						<tr><td colspan=3 class=blank2></td></tr>
+						<tr><td class=studyBlock>
+								<table class=tblBlock>
+									<tr><td>행렬의 아름다움</td></tr>
+									<tr><td>(가입 중)</td></tr>
+									<tr><td>카테고리 대</td></tr>
+									<tr><td>카테고리 소</td></tr>
+									<tr><td>천안시</td></tr>
+								</table>
+							</td><td class=blank></td>
+							<td class=studyBlock>
+								<table class=tblBlock>
+									<tr><td>행렬의 아름다움</td></tr>
+									<tr><td>(가입 중)</td></tr>
+									<tr><td>카테고리 대</td></tr>
+									<tr><td>카테고리 소</td></tr>
+									<tr><td>천안시</td></tr>
+								</table>
+							</td></tr>
+						<tr><td colspan=3 class=blank2></td></tr>
+						<tr><td class=studyBlock>
+								<table class=tblBlock>
+									<tr><td>행렬의 아름다움</td></tr>
+									<tr><td>(가입 중)</td></tr>
+									<tr><td>카테고리 대</td></tr>
+									<tr><td>카테고리 소</td></tr>
+									<tr><td>천안시</td></tr>
+								</table>
+							</td><td class=blank></td>
+							<td class=studyBlock>
+								<table class=tblBlock>
+									<tr><td>행렬의 아름다움</td></tr>
+									<tr><td>(가입 중)</td></tr>
+									<tr><td>카테고리 대</td></tr>
+									<tr><td>카테고리 소</td></tr>
+									<tr><td>천안시</td></tr>
+								</table>
+							</td></tr>
+					</table>
+				</div>
 			</div>
 		</div>
 	</div>

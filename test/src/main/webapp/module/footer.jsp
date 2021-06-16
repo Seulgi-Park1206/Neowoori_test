@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<link rel="stylesheet" href="/controller/resources/PSG/css/footer.css" type="text/css">
+<link rel="stylesheet" href="/controller/resources/psg/css/footer.css" type="text/css">
 <body>
 <footer>
 	<hr>

@@ -1,0 +1,33 @@
+@charset "EUC-KR";
+.form {
+	padding: 5px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+.title {
+	font-size: 30px;
+	font-weight: bold;
+}
+.contents {
+	text-align: center;
+	width: 60%;
+	padding: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+@media (max-width:1330px){ /*가로 너비가 1330px 이하일 때 아래 스타일 적용*/
+    .form {
+        width: 95%;
+    }
+    .title {
+    	font-size: 25px;
+    }
+    .contents {
+		width: 100%;
+		font-size: 17px;
+	}
+}

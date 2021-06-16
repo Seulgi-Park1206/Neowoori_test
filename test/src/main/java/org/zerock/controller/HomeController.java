@@ -43,7 +43,7 @@ public class HomeController {
 	public String ajax() {
 		return "ajaxlist";
 	}
-	   
+	
 	@ResponseBody
 	@RequestMapping(value="/post.do", method=RequestMethod.POST,produces = "application/json")
 	public ArrayList<BDto> reqList() {
@@ -61,6 +61,12 @@ public class HomeController {
 	public String meetList(@PathVariable String user_id, Model model) {
 		// 세션에 있는 user_id 사용
 		return "meetList";
+	}
+	// meetadmin
+	@RequestMapping("/meetadmin/{study_id}")
+	public String meetAdmin(@PathVariable String study_id, Model model) {
+		// 세션에 있는 study_id 사용
+		return "meetadmin";
 	}
 }
 	
