@@ -41,15 +41,19 @@ table {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+	border: 0;
 }
 tr {
 	text-align: center;
+}
+td {
+	border-left: 0;
 }
 .studyBlock {
 	border: 5px solid gray;
 	width: 38%;
 	height: 150px;
-	border-radius: 30px;
+	border-radius: 25px;
 }
 .blank {
 	width: 24%;

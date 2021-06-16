@@ -68,5 +68,11 @@ public class HomeController {
 		// 세션에 있는 study_id 사용
 		return "meetadmin";
 	}
+	// meetadmin
+	@RequestMapping("/meetuser/{study_id}")
+	public String meetUser(@PathVariable String study_id, Model model) {
+		// 세션에 있는 study_id 사용
+		return "meetuser";
+	}
 }
 	

@@ -1,16 +1,13 @@
 @charset "EUC-KR";
-.jsb_table_width1 {
-   width:5%;
-}
 .jsb_table_width2 {
-   width:5%;
+   width:15%;
 }
 .jsb_table_width3 {
-   width:25%;
+   width:60%;
 }
 .jsb_table_width4 {
-   width:55%;
+   width:25%;
 }
-.jsb_table_width5 {
-   width:10%;
+tr, th {
+	border: 1px solid gray;
 }

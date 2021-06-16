@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>My Study</title>
+<title>내 스터디</title>
 </head>
 <link rel="stylesheet" href="/controller/resources/psg/css/form.css" type="text/css">
 <link rel="stylesheet" href="/controller/resources/psg/css/meetList.css" type="text/css">
@@ -156,6 +156,7 @@
 <script>
 $(document)
 .ready(function(){
+	// 스터디 목록 불러오기
 	<%-- let userid = <%=session.getAttribute("uid") %> --%>
 	let mystudy = null;
 	let join = 1;

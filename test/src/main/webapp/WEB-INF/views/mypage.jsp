@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>My Page</title>
+<title>내 정보</title>
 </head>
 <link rel="stylesheet" href="/controller/resources/psg/css/form.css" type="text/css">
 <link rel="stylesheet" href="/controller/resources/psg/css/mypage.css" type="text/css">
@@ -35,7 +35,7 @@
 				<tr>
 					<td class=tdLeft>닉네임:</td>
 					<td><input type=text class=intext /></td>
-					<td><input type=button class=btn value="중복확인" /></td>
+					<td class=tdCheck><input type=button class=btn value="중복확인" /></td>
 				</tr>
 				<tr>
 					<td class=tdLeft>생년월일:</td>
@@ -59,16 +59,16 @@
 							<option value="nate.com">nate.com</option>
 							<option value="hanmail.net">hanmail.net</option>
 					</select></td>
-					<td><input type=button class=btn id=btnEmail value="이메일 인증" /></td>
+					<td class=tdCheck><input type=button class=btn id=btnEmail value="이메일 인증" /></td>
 				</tr>
 				<tr id=hiddenTr>
 					<td class=tdLeft>이메일 인증번호:</td>
 					<td><input type=text class=intext /></td>
-					<td><input type=button class=btn value="인증확인" /></td>
+					<td class=tdCheck><input type=button class=btn value="인증확인" /></td>
 				</tr>
 			</table>
 			<div class=btnDiv>
-				<input type=button class=btn id=btnUpdate value="정보 수정" />&nbsp;&nbsp;
+				<input type=button class=btn id=btnUpdate value="정보 수정" />
 				<input type=button class=btn id=btnClear value="취소" />
 			</div>
 		</div>
