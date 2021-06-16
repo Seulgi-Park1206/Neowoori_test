@@ -51,6 +51,8 @@ public class HomeController {
 		ArrayList<BDto> alData=dao.listDao();
 		return alData;
 	}
+	
+	/*------------------------------- psg ------------------------------------*/
 	// mypage
 	@RequestMapping("/mypage")
     public String myPage() {

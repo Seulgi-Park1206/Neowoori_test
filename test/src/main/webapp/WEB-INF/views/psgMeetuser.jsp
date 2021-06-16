@@ -29,27 +29,27 @@
 				<tbody>
 					<tr>
 						<td>1</td>
-						<td><a class=pop>봉봉</a></td>
+						<td>봉봉</td>
 						<td>2021/06/15</td>
 					</tr>
 					<tr>
 						<td>2</td>
-						<td><a class=pop>빵야</a></td>
+						<td>빵야</td>
 						<td>2021/06/15</td>
 					</tr>
 					<tr>
 						<td>3</td>
-						<td><a class=pop>Yuggun</a></td>
+						<td>Yuggun</td>
 						<td>2021/06/15</td>
 					</tr>
 					<tr>
 						<td>4</td>
-						<td><a class=pop>혀누야슬기해</a></td>
+						<td>혀누야슬기해</td>
 						<td>2021/06/15</td>
 					</tr>
 					<tr>
 						<td>5</td>
-						<td><a class=pop>건강한너구리</a></td>
+						<td>건강한너구리</td>
 						<td>2021/06/15</td>
 					</tr>
 				</tbody>
@@ -63,49 +63,17 @@
 				<button class=btn>다음</button>
 			</div>
 		</div>
-		<div class="dropdown">
-			<a id=kick>강퇴하기</a>
-			<hr>
-			<a id=msg>쪽지 보내기</a>
-		</div>
 	</div>
 	<jsp:include page="/module/footer.jsp" flush="false" />
 </body>
-<script src='https://code.jquery.com/jquery-3.5.0.js'></script>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script type="text/javascript">
 $(document)
 .ready(function(){
 	// 스터디 회원 정보 불러오기
-	$('.dropdown').hide();
 })
-.on('click', '.pop', function(e){
-	console.log(e.pageX, e.pageY)
-	if($(e.target).hasClass('pop')){
-		$('.dropdown').show();
-		let x = parseInt(e.pageX)+20;
-		x = String(x);
-		$('.dropdown').css({
-			"left": x + 'px',
-			"top": e.pageY + 'px'
-		})
-	}
-	return false;
-})
-.on('click', '.form', function(){
-	$('.dropdown').hide();
-	return false;
-})
-.on('click', '#kick', function(){
-	// confirm 대신 다른 창 만들어 사용(예를 들면 toast?)
-	let result = confirm("이 유저를 강퇴하시겠습니까?");
-	if(result){
-		alert("해당 유저를 강퇴했습니다.");
-		// 강퇴(테이블에서 지우기)
-	}
-	return false;
-})
-.on('click', '#msg', function(){
-	// 쪽지보내기
+.on('click', '#tblUserList tr', function(){
+	
 	return false;
 })
 </script>
